@@ -1,0 +1,2 @@
+# Completion setup for racket
+source /usr/share/racket/pkgs/shell-completion/racket-completion.bash

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="956" y="235" />
+    <location key="OptionsEditor.0.0.1920.1080" x="0" y="0" />
+    <size key="OptionsEditor.0.0.1920.1080" width="1920" height="1080" />
+  </component>
+  <component name="LafManager">
+    <laf class-name="com.intellij.ide.ui.laf.IntelliJLaf" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="log.debug.categories" value="" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="1" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.initialConfigurationShown" value="true" />
+    <property name="installation.uid" value="ba9bce5f-632f-4ace-a538-4bb5811b173b" />
+    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="PACKAGE_FILTER" value="elpy&#10;jedi" />
+  </component>
+</application>
+

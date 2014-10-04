@@ -1,0 +1,768 @@
+2014-09-12 23:21:07,542 [      1]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-09-12 23:21:07,551 [     10]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PY-135.1057, 10 Jun 2014 00:00) 
+2014-09-12 23:21:07,551 [     10]   INFO -        #com.intellij.idea.Main - OS: Linux (3.14-2-amd64, amd64) 
+2014-09-12 23:21:07,551 [     10]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-09-12 23:21:07,551 [     10]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-09-12 23:21:07,554 [     13]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=./pycharm64.vmoptions -Xbootclasspath/a:./../lib/boot.jar -Didea.paths.selector=PyCharm30 -Didea.platform.prefix=Python -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-09-12 23:21:07,570 [     29]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 16 ms 
+2014-09-12 23:21:07,582 [     41]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 12 ms 
+2014-09-12 23:21:42,043 [  34502]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2014-09-12 23:21:42,420 [  34879]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-09-12 23:21:42,434 [  34893]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-09-12 23:21:42,875 [  35334]   INFO - llij.ide.plugins.PluginManager - 41 plugins initialized in 762 ms 
+2014-09-12 23:21:42,876 [  35335]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: AngularJS (135), CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Django Database Support Integration (1.0), File Watchers (999.999), Flask Microframework Support, GNU GetText files support (*.po) (135.SNAPSHOT), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, Ini4Idea (999.999), IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), Python JavaScript Debugger Integration (VERSION), Python Localization Integration (VERSION), Python ReStructureText Integration (VERSION), Python Remote Interpreter (VERSION), Python UML Diagrams (VERSION), REST Client, ReStructuredText Support (135.SNAPSHOT), Remote Hosts Access (0.1), SASS support, SQL support (1.0), SSH Remote Run (0.1), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-09-12 23:21:43,201 [  35660]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2014-09-12 23:21:43,202 [  35661]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2014-09-12 23:21:43,238 [  35697]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/abrahamx/Applications/pycharm-3.4.1/bin/fsnotifier64 
+2014-09-12 23:21:43,244 [  35703]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-09-12 23:21:43,282 [  35741]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/other.xml file is null 
+2014-09-12 23:21:43,291 [  35750]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/project.default.xml file is null 
+2014-09-12 23:21:43,321 [  35780]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/filetypes.xml file is null 
+2014-09-12 23:21:43,938 [  36397]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 5), rebuilding... 
+2014-09-12 23:21:43,938 [  36397]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2014-09-12 23:21:43,953 [  36412]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-09-12 23:21:43,955 [  36414]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-09-12 23:21:43,956 [  36415]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/options.xml file is null 
+2014-09-12 23:21:43,990 [  36449]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-09-12 23:21:43,993 [  36452]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/usage.statistics.xml file is null 
+2014-09-12 23:21:43,994 [  36453]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2014-09-12 23:21:44,222 [  36681]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/keymap.xml file is null 
+2014-09-12 23:21:44,296 [  36755]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/abbreviations.xml file is null 
+2014-09-12 23:21:44,329 [  36788]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-09-12 23:21:44,347 [  36806]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ide.general.xml file is null 
+2014-09-12 23:21:44,356 [  36815]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.xml file is null 
+2014-09-12 23:21:44,357 [  36816]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-09-12 23:21:44,362 [  36821]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-09-12 23:21:45,220 [  37679]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/stubIndex.xml file is null 
+2014-09-12 23:21:45,258 [  37717]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /home/abrahamx/Applications/pycharm-3.4.1/lib/pycharm.jar!/resources/html5-schema/html5.rnc 
+2014-09-12 23:21:45,258 [  37717]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /home/abrahamx/Applications/pycharm-3.4.1/lib/pycharm.jar!/resources/html5-schema/xhtml5.rnc 
+2014-09-12 23:21:45,258 [  37717]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /home/abrahamx/Applications/pycharm-3.4.1/lib/pycharm.jar!/resources/html5-schema/html5chars.ent 
+2014-09-12 23:21:45,441 [  37900]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/colors.scheme.xml file is null 
+2014-09-12 23:21:45,444 [  37903]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.codeinsight.xml file is null 
+2014-09-12 23:21:45,467 [  37926]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 196 ms 
+2014-09-12 23:21:45,468 [  37927]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-09-12 23:21:45,487 [  37946]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2014-09-12 23:21:45,546 [  38005]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-09-12 23:21:45,547 [  38006]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-09-12 23:21:45,551 [  38010]   INFO - pl.stores.ApplicationStoreImpl - 80 application components initialized in 2656 ms 
+2014-09-12 23:21:45,552 [  38011]   INFO - .intellij.idea.IdeaApplication - App initialization took 50493 ms 
+2014-09-12 23:21:46,405 [  38864]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plugin_ui.xml file is null 
+2014-09-12 23:23:40,385 [ 152844]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-09-12 23:23:40,396 [ 152855]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-09-12 23:23:40,396 [ 152855]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-09-12 23:23:40,397 [ 152856]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-09-12 23:23:40,397 [ 152856]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-09-12 23:23:40,397 [ 152856]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-09-12 23:23:40,471 [ 152930]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-09-12 23:23:40,471 [ 152930]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-09-12 23:23:40,472 [ 152931]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-09-12 23:23:40,475 [ 152934]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-09-12 23:50:37,997 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-09-12 23:50:38,015 [     18]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PY-135.1057, 10 Jun 2014 00:00) 
+2014-09-12 23:50:38,015 [     18]   INFO -        #com.intellij.idea.Main - OS: Linux (3.14-2-amd64, amd64) 
+2014-09-12 23:50:38,015 [     18]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-09-12 23:50:38,015 [     18]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-09-12 23:50:38,017 [     20]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/home/abrahamx/Applications/pycharm-3.4.1/bin/pycharm64.vmoptions -Xbootclasspath/a:/home/abrahamx/Applications/pycharm-3.4.1/bin/../lib/boot.jar -Didea.paths.selector=PyCharm30 -Didea.platform.prefix=Python -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-09-12 23:50:38,038 [     41]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 21 ms 
+2014-09-12 23:50:38,073 [     76]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 34 ms 
+2014-09-12 23:50:38,232 [    235]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2014-09-12 23:50:38,730 [    733]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-09-12 23:50:38,751 [    754]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-09-12 23:50:39,237 [   1240]   INFO - llij.ide.plugins.PluginManager - 41 plugins initialized in 875 ms 
+2014-09-12 23:50:39,238 [   1241]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: AngularJS (135), CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Django Database Support Integration (1.0), File Watchers (999.999), Flask Microframework Support, GNU GetText files support (*.po) (135.SNAPSHOT), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, Ini4Idea (999.999), IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), Python JavaScript Debugger Integration (VERSION), Python Localization Integration (VERSION), Python ReStructureText Integration (VERSION), Python Remote Interpreter (VERSION), Python UML Diagrams (VERSION), REST Client, ReStructuredText Support (135.SNAPSHOT), Remote Hosts Access (0.1), SASS support, SQL support (1.0), SSH Remote Run (0.1), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-09-12 23:50:39,615 [   1618]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2014-09-12 23:50:39,645 [   1648]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/abrahamx/Applications/pycharm-3.4.1/bin/fsnotifier64 
+2014-09-12 23:50:39,651 [   1654]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-09-12 23:50:39,696 [   1699]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-09-12 23:50:40,417 [   2420]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-09-12 23:50:40,599 [   2602]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-09-12 23:50:40,772 [   2775]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-09-12 23:50:40,808 [   2811]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-09-12 23:50:40,813 [   2816]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-09-12 23:50:41,109 [   3112]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-09-12 23:50:41,111 [   3114]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-09-12 23:50:41,115 [   3118]   INFO - pl.stores.ApplicationStoreImpl - 80 application components initialized in 1817 ms 
+2014-09-12 23:50:41,116 [   3119]   INFO - .intellij.idea.IdeaApplication - App initialization took 3490 ms 
+2014-09-12 23:50:42,858 [   4861]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 188 ms 
+2014-09-12 23:50:42,859 [   4862]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-09-12 23:50:44,130 [   6133]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-09-12 23:50:44,134 [   6137]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/IntelliLang.xml file is null 
+2014-09-12 23:50:45,301 [   7304]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2014-09-12 23:50:48,175 [  10178]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/jdk.table.xml file is null 
+2014-09-12 23:50:48,178 [  10181]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/removedInterpreters.xml file is null 
+2014-09-12 23:50:51,814 [  13817]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-12 23:50:51,926 [  13929]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/packages.xml file is null 
+2014-09-12 23:51:24,525 [  46528]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-12 23:51:27,072 [  49075]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py untar /home/abrahamx/Applications/pycharm-3.4.1/helpers/setuptools-1.1.5 
+2014-09-12 23:51:27,118 [  49121]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /tmp/tmpjS74vzpycharm-management/setuptools-1.1.5/setup.py install 
+2014-09-12 23:51:40,724 [  62727]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-12 23:51:40,770 [  62773]   INFO - rains.python.sdk.PythonSdkType - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2014-09-12 23:51:40,797 [  62800]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2014-09-12 23:51:40,973 [  62976]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 166 ms 
+2014-09-12 23:51:40,975 [  62978]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/abrahamx/Applications/pycharm-3.4.1 
+2014-09-12 23:51:42,351 [  64354]   INFO - .skeletons.PySkeletonGenerator - Rebuilding builtin skeletons took 1376 ms 
+2014-09-12 23:51:42,351 [  64354]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._AES 
+2014-09-12 23:51:42,409 [  64412]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._ARC2 
+2014-09-12 23:51:42,457 [  64460]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._ARC4 
+2014-09-12 23:51:42,504 [  64507]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._Blowfish 
+2014-09-12 23:51:42,553 [  64556]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._CAST 
+2014-09-12 23:51:42,606 [  64609]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._DES 
+2014-09-12 23:51:42,653 [  64656]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._DES3 
+2014-09-12 23:51:42,700 [  64703]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Cipher._XOR 
+2014-09-12 23:51:42,743 [  64746]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._MD2 
+2014-09-12 23:51:42,795 [  64798]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._MD4 
+2014-09-12 23:51:42,842 [  64845]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._RIPEMD160 
+2014-09-12 23:51:42,890 [  64893]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._SHA224 
+2014-09-12 23:51:42,942 [  64945]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._SHA256 
+2014-09-12 23:51:42,990 [  64993]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._SHA384 
+2014-09-12 23:51:43,042 [  65045]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Hash._SHA512 
+2014-09-12 23:51:43,089 [  65092]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.PublicKey._fastmath 
+2014-09-12 23:51:43,141 [  65144]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Util._counter 
+2014-09-12 23:51:43,188 [  65191]   INFO - .skeletons.PySkeletonRefresher - Skeleton for Crypto.Util.strxor 
+2014-09-12 23:51:43,240 [  65243]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imaging 
+2014-09-12 23:51:43,289 [  65292]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingcms 
+2014-09-12 23:51:43,342 [  65345]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingft 
+2014-09-12 23:51:43,389 [  65392]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingmath 
+2014-09-12 23:51:43,441 [  65444]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingmorph 
+2014-09-12 23:51:43,487 [  65490]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._webp 
+2014-09-12 23:51:43,541 [  65544]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.akonadi 
+2014-09-12 23:51:43,735 [  65738]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.dnssd 
+2014-09-12 23:51:43,843 [  65846]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kdecore 
+2014-09-12 23:51:44,017 [  66020]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kdeui 
+2014-09-12 23:51:44,319 [  66322]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.khtml 
+2014-09-12 23:51:44,508 [  66511]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kio 
+2014-09-12 23:51:44,713 [  66716]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.knewstuff 
+2014-09-12 23:51:44,851 [  66854]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kparts 
+2014-09-12 23:51:44,979 [  66982]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kterminal 
+2014-09-12 23:51:45,117 [  67120]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.ktexteditor 
+2014-09-12 23:51:45,256 [  67259]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kutils 
+2014-09-12 23:51:45,380 [  67383]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.nepomuk 
+2014-09-12 23:51:45,492 [  67495]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.phonon 
+2014-09-12 23:51:45,595 [  67598]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.plasma 
+2014-09-12 23:51:45,761 [  67764]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.solid 
+2014-09-12 23:51:45,845 [  67848]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.soprano 
+2014-09-12 23:51:45,934 [  67937]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.Qt 
+2014-09-12 23:51:46,088 [  68091]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtAssistant 
+2014-09-12 23:51:46,177 [  68180]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtCore 
+2014-09-12 23:51:47,961 [  69964]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDBus 
+2014-09-12 23:51:48,207 [  70210]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDeclarative 
+2014-09-12 23:51:48,443 [  70446]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDesigner 
+2014-09-12 23:51:48,679 [  70682]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtGui 
+2014-09-12 23:51:53,819 [  75822]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtHelp 
+2014-09-12 23:51:53,943 [  75946]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtNetwork 
+2014-09-12 23:51:54,605 [  76608]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtScript 
+2014-09-12 23:51:54,795 [  76798]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtScriptTools 
+2014-09-12 23:51:54,889 [  76892]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtSvg 
+2014-09-12 23:51:54,997 [  77000]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtTest 
+2014-09-12 23:51:55,091 [  77094]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtWebKit 
+2014-09-12 23:51:55,428 [  77431]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtXml 
+2014-09-12 23:51:55,814 [  77817]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtXmlPatterns 
+2014-09-12 23:51:56,019 [  78022]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _bsddb 
+2014-09-12 23:51:56,071 [  78074]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_cn 
+2014-09-12 23:51:56,119 [  78122]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_hk 
+2014-09-12 23:51:56,173 [  78176]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_iso2022 
+2014-09-12 23:51:56,221 [  78224]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_jp 
+2014-09-12 23:51:56,268 [  78271]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_kr 
+2014-09-12 23:51:56,316 [  78319]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_tw 
+2014-09-12 23:51:56,359 [  78362]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _csv 
+2014-09-12 23:51:56,417 [  78420]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes 
+2014-09-12 23:51:56,491 [  78494]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes_test 
+2014-09-12 23:51:56,548 [  78551]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses 
+2014-09-12 23:51:56,601 [  78604]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses_panel 
+2014-09-12 23:51:56,649 [  78652]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbus_bindings 
+2014-09-12 23:51:56,829 [  78832]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbus_glib_bindings 
+2014-09-12 23:51:56,888 [  78891]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _elementtree 
+2014-09-12 23:51:56,945 [  78948]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _hashlib 
+2014-09-12 23:51:56,997 [  79000]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _hotshot 
+2014-09-12 23:51:57,070 [  79073]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _json 
+2014-09-12 23:51:57,124 [  79127]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _lsprof 
+2014-09-12 23:51:57,197 [  79200]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multibytecodec 
+2014-09-12 23:51:57,256 [  79259]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multiprocessing 
+2014-09-12 23:51:57,328 [  79331]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _smbc 
+2014-09-12 23:51:57,474 [  79477]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sqlite3 
+2014-09-12 23:51:57,547 [  79550]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ssl 
+2014-09-12 23:51:57,614 [  79617]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testcapi 
+2014-09-12 23:51:57,672 [  79675]   INFO - .skeletons.PySkeletonRefresher - Skeleton for apt_inst 
+2014-09-12 23:51:57,755 [  79758]   INFO - .skeletons.PySkeletonRefresher - Skeleton for apt_pkg 
+2014-09-12 23:51:57,986 [  79989]   INFO - .skeletons.PySkeletonRefresher - Skeleton for atk 
+2014-09-12 23:51:58,110 [  80113]   INFO - .skeletons.PySkeletonRefresher - Skeleton for audioop 
+2014-09-12 23:51:58,163 [  80166]   INFO - .skeletons.PySkeletonRefresher - Skeleton for bz2 
+2014-09-12 23:51:58,251 [  80254]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cairo._cairo 
+2014-09-12 23:51:58,340 [  80343]   INFO - .skeletons.PySkeletonRefresher - Skeleton for crypt 
+2014-09-12 23:51:58,397 [  80400]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cups 
+2014-09-12 23:51:58,583 [  80586]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cupsext 
+2014-09-12 23:51:58,641 [  80644]   INFO - .skeletons.PySkeletonRefresher - Skeleton for datetime 
+2014-09-12 23:51:58,744 [  80747]   INFO - .skeletons.PySkeletonRefresher - Skeleton for dbm 
+2014-09-12 23:51:58,797 [  80800]   INFO - .skeletons.PySkeletonRefresher - Skeleton for dbus.mainloop.qt 
+2014-09-12 23:51:58,865 [  80868]   INFO - .skeletons.PySkeletonRefresher - Skeleton for fpectl 
+2014-09-12 23:51:58,912 [  80915]   INFO - .skeletons.PySkeletonRefresher - Skeleton for future_builtins 
+2014-09-12 23:51:58,970 [  80973]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gi._gi 
+2014-09-12 23:51:59,061 [  81064]   INFO - .skeletons.PySkeletonGenerator - Skeleton for gi._gi failed on /usr/bin/python2.7. stderr: --
+Failed to process 'gi._gi' while nothing yet: When using gi.repository you must not import static modules like "gobject". Please change all occurrences of "import gobject" to "from gi.repository import GObject". See: https://bugzilla.gnome.org/show_bug.cgi?id=709183
+-- 
+2014-09-12 23:51:59,061 [  81064]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gio._gio 
+2014-09-12 23:51:59,257 [  81260]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gio.unix 
+2014-09-12 23:51:59,319 [  81322]   INFO - .skeletons.PySkeletonRefresher - Skeleton for glib._glib 
+2014-09-12 23:51:59,397 [  81400]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gobject._gobject 
+2014-09-12 23:51:59,495 [  81498]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gtk._gtk 
+2014-09-12 23:52:00,573 [  82576]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gtk.glade 
+2014-09-12 23:52:00,762 [  82765]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gtkunixprint 
+2014-09-12 23:52:00,941 [  82944]   INFO - .skeletons.PySkeletonRefresher - Skeleton for hpmudext 
+2014-09-12 23:52:00,989 [  82992]   INFO - .skeletons.PySkeletonRefresher - Skeleton for ldb 
+2014-09-12 23:52:01,083 [  83086]   INFO - .skeletons.PySkeletonRefresher - Skeleton for libxml2mod 
+2014-09-12 23:52:01,157 [  83160]   INFO - .skeletons.PySkeletonRefresher - Skeleton for linuxaudiodev 
+2014-09-12 23:52:01,200 [  83203]   INFO - .skeletons.PySkeletonRefresher - Skeleton for mmap 
+2014-09-12 23:52:01,257 [  83260]   INFO - .skeletons.PySkeletonRefresher - Skeleton for nis 
+2014-09-12 23:52:01,310 [  83313]   INFO - .skeletons.PySkeletonRefresher - Skeleton for ntdb 
+2014-09-12 23:52:01,387 [  83390]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core._dotblas 
+2014-09-12 23:52:01,532 [  83535]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core._dummy 
+2014-09-12 23:52:01,626 [  83629]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core.multiarray 
+2014-09-12 23:52:01,958 [  83961]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core.multiarray_tests 
+2014-09-12 23:52:02,045 [  84048]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core.operand_flag_tests 
+2014-09-12 23:52:02,129 [  84132]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core.scalarmath 
+2014-09-12 23:52:02,223 [  84226]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core.struct_ufunc_test 
+2014-09-12 23:52:02,327 [  84330]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core.test_rational 
+2014-09-12 23:52:02,435 [  84438]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core.umath 
+2014-09-12 23:52:02,644 [  84647]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.core.umath_tests 
+2014-09-12 23:52:02,757 [  84760]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.fft.fftpack_lite 
+2014-09-12 23:52:02,851 [  84854]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.lib._compiled_base 
+2014-09-12 23:52:02,960 [  84963]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.linalg._umath_linalg 
+2014-09-12 23:52:03,078 [  85081]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.linalg.lapack_lite 
+2014-09-12 23:52:03,177 [  85180]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.numarray._capi 
+2014-09-12 23:52:03,285 [  85288]   INFO - .skeletons.PySkeletonRefresher - Skeleton for numpy.random.mtrand 
+2014-09-12 23:52:03,494 [  85497]   INFO - .skeletons.PySkeletonRefresher - Skeleton for ossaudiodev 
+2014-09-12 23:52:03,552 [  85555]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pango 
+2014-09-12 23:52:03,650 [  85653]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pangocairo 
+2014-09-12 23:52:03,718 [  85721]   INFO - .skeletons.PySkeletonRefresher - Skeleton for parser 
+2014-09-12 23:52:03,776 [  85779]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pcardext 
+2014-09-12 23:52:03,833 [  85836]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pycurl 
+2014-09-12 23:52:03,906 [  85909]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pyexpat 
+2014-09-12 23:52:03,959 [  85962]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pynotify._pynotify 
+2014-09-12 23:52:04,151 [  86154]   INFO - .skeletons.PySkeletonRefresher - Skeleton for readline 
+2014-09-12 23:52:04,223 [  86226]   INFO - .skeletons.PySkeletonRefresher - Skeleton for reportlab.graphics._renderPM 
+2014-09-12 23:52:04,286 [  86289]   INFO - .skeletons.PySkeletonRefresher - Skeleton for reportlab.lib._rl_accel 
+2014-09-12 23:52:04,349 [  86352]   INFO - .skeletons.PySkeletonRefresher - Skeleton for reportlab.lib.pyHnj 
+2014-09-12 23:52:04,396 [  86399]   INFO - .skeletons.PySkeletonRefresher - Skeleton for resource 
+2014-09-12 23:52:04,463 [  86466]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba._glue 
+2014-09-12 23:52:04,551 [  86554]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba._ldb 
+2014-09-12 23:52:04,618 [  86621]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.auth 
+2014-09-12 23:52:04,697 [  86700]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.com 
+2014-09-12 23:52:04,764 [  86767]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.credentials 
+2014-09-12 23:52:04,853 [  86856]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.atsvc 
+2014-09-12 23:52:04,945 [  86948]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.auth 
+2014-09-12 23:52:05,048 [  87051]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.base 
+2014-09-12 23:52:05,131 [  87134]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.dfs 
+2014-09-12 23:52:05,250 [  87253]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.dns 
+2014-09-12 23:52:05,343 [  87346]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.dnsp 
+2014-09-12 23:52:05,436 [  87439]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.dnsserver 
+2014-09-12 23:52:05,565 [  87568]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.drsblobs 
+2014-09-12 23:52:05,724 [  87727]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.drsuapi 
+2014-09-12 23:52:05,897 [  87900]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.echo 
+2014-09-12 23:52:05,976 [  87979]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.epmapper 
+2014-09-12 23:52:06,098 [  88101]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.idmap 
+2014-09-12 23:52:06,178 [  88181]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.initshutdown 
+2014-09-12 23:52:06,262 [  88265]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.irpc 
+2014-09-12 23:52:06,365 [  88368]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.krb5pac 
+2014-09-12 23:52:06,463 [  88466]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.lsa 
+2014-09-12 23:52:06,653 [  88656]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.mgmt 
+2014-09-12 23:52:06,727 [  88730]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.misc 
+2014-09-12 23:52:06,795 [  88798]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.nbt 
+2014-09-12 23:52:06,894 [  88897]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.netlogon 
+2014-09-12 23:52:07,068 [  89071]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.samr 
+2014-09-12 23:52:07,242 [  89245]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.security 
+2014-09-12 23:52:07,325 [  89328]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.server_id 
+2014-09-12 23:52:07,393 [  89396]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.smb_acl 
+2014-09-12 23:52:07,461 [  89464]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.srvsvc 
+2014-09-12 23:52:07,660 [  89663]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.svcctl 
+2014-09-12 23:52:07,773 [  89776]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.unixinfo 
+2014-09-12 23:52:07,846 [  89849]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.winbind 
+2014-09-12 23:52:07,929 [  89932]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.winreg 
+2014-09-12 23:52:08,033 [  90036]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.wkssvc 
+2014-09-12 23:52:08,173 [  90176]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dcerpc.xattr 
+2014-09-12 23:52:08,255 [  90258]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.dsdb 
+2014-09-12 23:52:08,324 [  90327]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.gensec 
+2014-09-12 23:52:08,398 [  90401]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.messaging 
+2014-09-12 23:52:08,470 [  90473]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.net 
+2014-09-12 23:52:08,550 [  90553]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.netbios 
+2014-09-12 23:52:08,633 [  90636]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.param 
+2014-09-12 23:52:08,707 [  90710]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.policy 
+2014-09-12 23:52:08,775 [  90778]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.posix_eadb 
+2014-09-12 23:52:08,879 [  90882]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.registry 
+2014-09-12 23:52:08,967 [  90970]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.samba3.libsmb_samba_internal 
+2014-09-12 23:52:09,046 [  91049]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.samba3.param 
+2014-09-12 23:52:09,124 [  91127]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.samba3.passdb 
+2014-09-12 23:52:09,248 [  91251]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.samba3.smbd 
+2014-09-12 23:52:09,347 [  91350]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.security 
+2014-09-12 23:52:09,411 [  91414]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.smb 
+2014-09-12 23:52:09,489 [  91492]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.xattr_native 
+2014-09-12 23:52:09,557 [  91560]   INFO - .skeletons.PySkeletonRefresher - Skeleton for samba.xattr_tdb 
+2014-09-12 23:52:09,624 [  91627]   INFO - .skeletons.PySkeletonRefresher - Skeleton for scanext 
+2014-09-12 23:52:09,686 [  91689]   INFO - .skeletons.PySkeletonRefresher - Skeleton for sip 
+2014-09-12 23:52:09,745 [  91748]   INFO - .skeletons.PySkeletonRefresher - Skeleton for talloc 
+2014-09-12 23:52:09,793 [  91796]   INFO - .skeletons.PySkeletonRefresher - Skeleton for tdb 
+2014-09-12 23:52:09,861 [  91864]   INFO - .skeletons.PySkeletonRefresher - Skeleton for termios 
+2014-09-12 23:52:09,925 [  91928]   INFO - .skeletons.PySkeletonRefresher - Skeleton for xapian._xapian 
+2014-09-12 23:52:09,983 [  91986]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 27632 ms 
+2014-09-12 23:52:11,390 [  93393]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py untar /home/abrahamx/Applications/pycharm-3.4.1/helpers/pip-1.4.1 
+2014-09-12 23:52:11,437 [  93440]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /tmp/tmpTgpdK3pycharm-management/pip-1.4.1/setup.py install 
+2014-09-12 23:52:14,655 [  96658]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-12 23:52:14,681 [  96684]   INFO - rains.python.sdk.PythonSdkType - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2014-09-12 23:52:14,685 [  96688]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2014-09-12 23:52:14,786 [  96789]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 100 ms 
+2014-09-12 23:52:14,787 [  96790]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/abrahamx/Applications/pycharm-3.4.1 
+2014-09-12 23:52:14,806 [  96809]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 18 ms 
+2014-09-12 23:52:21,602 [ 103605]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py untar /home/abrahamx/Applications/pycharm-3.4.1/helpers/setuptools-1.1.5 
+2014-09-12 23:52:21,675 [ 103678]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /tmp/tmpulj1niiqpycharm-management/setuptools-1.1.5/setup.py install 
+2014-09-12 23:52:24,603 [ 106606]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-12 23:52:24,632 [ 106635]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python3.4 
+2014-09-12 23:52:24,751 [ 106754]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 118 ms 
+2014-09-12 23:52:24,752 [ 106755]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/abrahamx/Applications/pycharm-3.4.1 
+2014-09-12 23:52:27,001 [ 109004]   INFO - .skeletons.PySkeletonGenerator - Rebuilding builtin skeletons took 2249 ms 
+2014-09-12 23:52:27,001 [ 109004]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.akonadi 
+2014-09-12 23:52:27,227 [ 109230]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.dnssd 
+2014-09-12 23:52:27,371 [ 109374]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kdecore 
+2014-09-12 23:52:27,557 [ 109560]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kdeui 
+2014-09-12 23:52:27,808 [ 109811]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.khtml 
+2014-09-12 23:52:28,009 [ 110012]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kio 
+2014-09-12 23:52:28,207 [ 110210]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.knewstuff 
+2014-09-12 23:52:28,350 [ 110353]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kparts 
+2014-09-12 23:52:28,519 [ 110522]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kterminal 
+2014-09-12 23:52:28,700 [ 110703]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.ktexteditor 
+2014-09-12 23:52:28,883 [ 110886]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.kutils 
+2014-09-12 23:52:29,023 [ 111026]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.nepomuk 
+2014-09-12 23:52:29,154 [ 111157]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.phonon 
+2014-09-12 23:52:29,271 [ 111274]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.plasma 
+2014-09-12 23:52:29,477 [ 111480]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.solid 
+2014-09-12 23:52:29,595 [ 111598]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyKDE4.soprano 
+2014-09-12 23:52:29,703 [ 111706]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.Qt 
+2014-09-12 23:52:29,863 [ 111866]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtAssistant 
+2014-09-12 23:52:29,976 [ 111979]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtCore 
+2014-09-12 23:52:35,126 [ 117129]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDBus 
+2014-09-12 23:52:35,528 [ 117531]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDeclarative 
+2014-09-12 23:52:35,961 [ 117964]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDesigner 
+2014-09-12 23:52:36,400 [ 118403]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtGui 
+2014-09-12 23:52:55,835 [ 137838]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtHelp 
+2014-09-12 23:52:56,049 [ 138052]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtNetwork 
+2014-09-12 23:52:57,565 [ 139568]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtScript 
+2014-09-12 23:52:57,979 [ 139982]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtScriptTools 
+2014-09-12 23:52:58,094 [ 140097]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtSvg 
+2014-09-12 23:52:58,273 [ 140276]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtTest 
+2014-09-12 23:52:58,436 [ 140439]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtWebKit 
+2014-09-12 23:52:59,245 [ 141248]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtXml 
+2014-09-12 23:52:59,935 [ 141938]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtXmlPatterns 
+2014-09-12 23:53:00,324 [ 142327]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _bz2 
+2014-09-12 23:53:00,398 [ 142401]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_cn 
+2014-09-12 23:53:00,468 [ 142471]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_hk 
+2014-09-12 23:53:00,532 [ 142535]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_iso2022 
+2014-09-12 23:53:00,596 [ 142599]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_jp 
+2014-09-12 23:53:00,669 [ 142672]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_kr 
+2014-09-12 23:53:00,737 [ 142740]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_tw 
+2014-09-12 23:53:00,806 [ 142809]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _crypt 
+2014-09-12 23:53:00,875 [ 142878]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _csv 
+2014-09-12 23:53:00,967 [ 142970]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes 
+2014-09-12 23:53:01,062 [ 143065]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes_test 
+2014-09-12 23:53:01,133 [ 143136]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses 
+2014-09-12 23:53:01,213 [ 143216]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses_panel 
+2014-09-12 23:53:01,276 [ 143279]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbm 
+2014-09-12 23:53:01,339 [ 143342]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbus_bindings 
+2014-09-12 23:53:01,546 [ 143549]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbus_glib_bindings 
+2014-09-12 23:53:01,618 [ 143621]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _decimal 
+2014-09-12 23:53:01,951 [ 143954]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _hashlib 
+2014-09-12 23:53:02,021 [ 144024]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _json 
+2014-09-12 23:53:02,093 [ 144096]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _lsprof 
+2014-09-12 23:53:02,176 [ 144179]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _lzma 
+2014-09-12 23:53:02,245 [ 144248]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multibytecodec 
+2014-09-12 23:53:02,310 [ 144313]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multiprocessing 
+2014-09-12 23:53:02,387 [ 144390]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _opcode 
+2014-09-12 23:53:02,450 [ 144453]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sqlite3 
+2014-09-12 23:53:02,616 [ 144619]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ssl 
+2014-09-12 23:53:02,734 [ 144737]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testbuffer 
+2014-09-12 23:53:02,801 [ 144804]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testcapi 
+2014-09-12 23:53:02,886 [ 144889]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testimportmultiple 
+2014-09-12 23:53:02,949 [ 144952]   INFO - .skeletons.PySkeletonRefresher - Skeleton for apt_inst 
+2014-09-12 23:53:03,054 [ 145057]   INFO - .skeletons.PySkeletonRefresher - Skeleton for apt_pkg 
+2014-09-12 23:53:03,411 [ 145414]   INFO - .skeletons.PySkeletonRefresher - Skeleton for audioop 
+2014-09-12 23:53:03,516 [ 145519]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cmath 
+2014-09-12 23:53:03,611 [ 145614]   INFO - .skeletons.PySkeletonRefresher - Skeleton for fpectl 
+2014-09-12 23:53:03,674 [ 145677]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gi._gi 
+2014-09-12 23:53:03,759 [ 145762]   INFO - .skeletons.PySkeletonRefresher - Skeleton for mmap 
+2014-09-12 23:53:03,831 [ 145834]   INFO - .skeletons.PySkeletonRefresher - Skeleton for nis 
+2014-09-12 23:53:03,909 [ 145912]   INFO - .skeletons.PySkeletonRefresher - Skeleton for ossaudiodev 
+2014-09-12 23:53:03,982 [ 145985]   INFO - .skeletons.PySkeletonRefresher - Skeleton for parser 
+2014-09-12 23:53:04,051 [ 146054]   INFO - .skeletons.PySkeletonRefresher - Skeleton for readline 
+2014-09-12 23:53:04,144 [ 146147]   INFO - .skeletons.PySkeletonRefresher - Skeleton for resource 
+2014-09-12 23:53:04,211 [ 146214]   INFO - .skeletons.PySkeletonRefresher - Skeleton for sip 
+2014-09-12 23:53:04,278 [ 146281]   INFO - .skeletons.PySkeletonRefresher - Skeleton for termios 
+2014-09-12 23:53:04,352 [ 146355]   INFO - .skeletons.PySkeletonRefresher - Skeleton for xxlimited 
+2014-09-12 23:53:04,447 [ 146450]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 37446 ms 
+2014-09-12 23:53:06,907 [ 148910]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py untar /home/abrahamx/Applications/pycharm-3.4.1/helpers/pip-1.4.1 
+2014-09-12 23:53:06,965 [ 148968]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /tmp/tmpvdnl1txzpycharm-management/pip-1.4.1/setup.py install 
+2014-09-12 23:53:10,045 [ 152048]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-12 23:53:10,073 [ 152076]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python3.4 
+2014-09-12 23:53:10,152 [ 152155]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 78 ms 
+2014-09-12 23:53:10,152 [ 152155]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/abrahamx/Applications/pycharm-3.4.1 
+2014-09-12 23:53:10,157 [ 152160]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 4 ms 
+2014-09-12 23:56:43,282 [ 365285]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/encoding.xml file is null 
+2014-09-12 23:57:08,870 [ 390873]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-12 23:57:09,387 [ 391390]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python3.4 
+2014-09-12 23:57:09,501 [ 391504]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 112 ms 
+2014-09-12 23:57:09,502 [ 391505]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/abrahamx/Applications/pycharm-3.4.1 
+2014-09-12 23:57:09,506 [ 391509]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 4 ms 
+2014-09-12 23:57:16,496 [ 398499]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-09-12 23:57:16,514 [ 398517]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-09-12 23:57:16,514 [ 398517]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-09-12 23:57:16,515 [ 398518]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-09-12 23:57:16,516 [ 398519]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-09-12 23:57:16,517 [ 398520]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-09-12 23:57:16,521 [ 398524]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-09-12 23:57:16,521 [ 398524]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-09-12 23:57:16,522 [ 398525]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-09-12 23:57:16,528 [ 398531]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-09-13 17:39:52,793 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-09-13 17:39:52,809 [     16]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PY-135.1057, 10 Jun 2014 00:00) 
+2014-09-13 17:39:52,809 [     16]   INFO -        #com.intellij.idea.Main - OS: Linux (3.14-2-amd64, amd64) 
+2014-09-13 17:39:52,809 [     16]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-09-13 17:39:52,809 [     16]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-09-13 17:39:52,811 [     18]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/home/abrahamx/Applications/pycharm-3.4.1/bin/pycharm64.vmoptions -Xbootclasspath/a:/home/abrahamx/Applications/pycharm-3.4.1/bin/../lib/boot.jar -Didea.paths.selector=PyCharm30 -Didea.platform.prefix=Python -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-09-13 17:39:52,835 [     42]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 24 ms 
+2014-09-13 17:39:52,870 [     77]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 34 ms 
+2014-09-13 17:39:53,192 [    399]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2014-09-13 17:39:53,774 [    981]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-09-13 17:39:53,789 [    996]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-09-13 17:39:54,345 [   1552]   INFO - llij.ide.plugins.PluginManager - 41 plugins initialized in 1006 ms 
+2014-09-13 17:39:54,346 [   1553]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: AngularJS (135), CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Django Database Support Integration (1.0), File Watchers (999.999), Flask Microframework Support, GNU GetText files support (*.po) (135.SNAPSHOT), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, Ini4Idea (999.999), IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), Python JavaScript Debugger Integration (VERSION), Python Localization Integration (VERSION), Python ReStructureText Integration (VERSION), Python Remote Interpreter (VERSION), Python UML Diagrams (VERSION), REST Client, ReStructuredText Support (135.SNAPSHOT), Remote Hosts Access (0.1), SASS support, SQL support (1.0), SSH Remote Run (0.1), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-09-13 17:39:54,766 [   1973]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2014-09-13 17:39:54,806 [   2013]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/abrahamx/Applications/pycharm-3.4.1/bin/fsnotifier64 
+2014-09-13 17:39:54,812 [   2019]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-09-13 17:39:54,864 [   2071]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-09-13 17:39:55,700 [   2907]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-09-13 17:39:55,893 [   3100]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-09-13 17:39:56,078 [   3285]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-09-13 17:39:56,115 [   3322]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-09-13 17:39:56,120 [   3327]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-09-13 17:39:56,554 [   3761]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-09-13 17:39:56,556 [   3763]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-09-13 17:39:56,560 [   3767]   INFO - pl.stores.ApplicationStoreImpl - 80 application components initialized in 2185 ms 
+2014-09-13 17:39:56,562 [   3769]   INFO - .intellij.idea.IdeaApplication - App initialization took 4223 ms 
+2014-09-13 17:39:58,484 [   5691]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-09-13 17:39:58,501 [   5708]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-09-13 17:39:58,501 [   5708]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-09-13 17:39:58,501 [   5708]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-09-13 17:39:58,502 [   5709]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-09-13 17:39:58,503 [   5710]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-09-13 17:39:58,571 [   5778]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-09-13 17:39:58,571 [   5778]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-09-13 17:39:58,573 [   5780]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-09-13 17:39:58,576 [   5783]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-09-19 01:40:15,337 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-09-19 01:40:15,359 [     22]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PY-135.1057, 10 Jun 2014 00:00) 
+2014-09-19 01:40:15,360 [     23]   INFO -        #com.intellij.idea.Main - OS: Linux (3.14-2-amd64, amd64) 
+2014-09-19 01:40:15,360 [     23]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-09-19 01:40:15,360 [     23]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-09-19 01:40:15,362 [     25]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/home/abrahamx/Applications/pycharm-3.4.1/bin/pycharm64.vmoptions -Xbootclasspath/a:/home/abrahamx/Applications/pycharm-3.4.1/bin/../lib/boot.jar -Didea.paths.selector=PyCharm30 -Didea.platform.prefix=Python -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-09-19 01:40:15,388 [     51]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 25 ms 
+2014-09-19 01:40:15,423 [     86]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 34 ms 
+2014-09-19 01:40:15,941 [    604]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2014-09-19 01:40:16,487 [   1150]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-09-19 01:40:16,500 [   1163]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-09-19 01:40:16,993 [   1656]   INFO - llij.ide.plugins.PluginManager - 41 plugins initialized in 898 ms 
+2014-09-19 01:40:16,994 [   1657]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: AngularJS (135), CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Django Database Support Integration (1.0), File Watchers (999.999), Flask Microframework Support, GNU GetText files support (*.po) (135.SNAPSHOT), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, Ini4Idea (999.999), IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), Python JavaScript Debugger Integration (VERSION), Python Localization Integration (VERSION), Python ReStructureText Integration (VERSION), Python Remote Interpreter (VERSION), Python UML Diagrams (VERSION), REST Client, ReStructuredText Support (135.SNAPSHOT), Remote Hosts Access (0.1), SASS support, SQL support (1.0), SSH Remote Run (0.1), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-09-19 01:40:17,422 [   2085]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2014-09-19 01:40:17,460 [   2123]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/abrahamx/Applications/pycharm-3.4.1/bin/fsnotifier64 
+2014-09-19 01:40:17,467 [   2130]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-09-19 01:40:17,515 [   2178]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-09-19 01:40:18,287 [   2950]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-09-19 01:40:18,467 [   3130]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-09-19 01:40:18,646 [   3309]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-09-19 01:40:18,680 [   3343]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-09-19 01:40:18,685 [   3348]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-09-19 01:40:19,133 [   3796]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-09-19 01:40:19,134 [   3797]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-09-19 01:40:19,138 [   3801]   INFO - pl.stores.ApplicationStoreImpl - 80 application components initialized in 2105 ms 
+2014-09-19 01:40:19,141 [   3804]   INFO - .intellij.idea.IdeaApplication - App initialization took 4306 ms 
+2014-09-19 01:41:25,829 [  70492]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-09-19 01:41:25,851 [  70514]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-09-19 01:41:25,852 [  70515]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-09-19 01:41:25,852 [  70515]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-09-19 01:41:25,852 [  70515]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-09-19 01:41:25,854 [  70517]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-09-19 01:41:26,037 [  70700]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-09-19 01:41:26,038 [  70701]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-09-19 01:41:26,038 [  70701]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-09-19 01:41:26,041 [  70704]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-09-25 00:52:58,061 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-09-25 00:52:58,083 [     22]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PY-135.1057, 10 Jun 2014 00:00) 
+2014-09-25 00:52:58,083 [     22]   INFO -        #com.intellij.idea.Main - OS: Linux (3.14-2-amd64, amd64) 
+2014-09-25 00:52:58,084 [     23]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-09-25 00:52:58,084 [     23]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-09-25 00:52:58,087 [     26]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/home/abrahamx/Applications/pycharm-3.4.1/bin/pycharm64.vmoptions -Xbootclasspath/a:/home/abrahamx/Applications/pycharm-3.4.1/bin/../lib/boot.jar -Didea.paths.selector=PyCharm30 -Didea.platform.prefix=Python -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-09-25 00:52:58,116 [     55]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 29 ms 
+2014-09-25 00:52:58,158 [     97]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 41 ms 
+2014-09-25 00:52:58,627 [    566]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2014-09-25 00:52:59,205 [   1144]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-09-25 00:52:59,220 [   1159]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-09-25 00:52:59,738 [   1677]   INFO - llij.ide.plugins.PluginManager - 41 plugins initialized in 942 ms 
+2014-09-25 00:52:59,739 [   1678]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: AngularJS (135), CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Django Database Support Integration (1.0), File Watchers (999.999), Flask Microframework Support, GNU GetText files support (*.po) (135.SNAPSHOT), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, Ini4Idea (999.999), IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), Python JavaScript Debugger Integration (VERSION), Python Localization Integration (VERSION), Python ReStructureText Integration (VERSION), Python Remote Interpreter (VERSION), Python UML Diagrams (VERSION), REST Client, ReStructuredText Support (135.SNAPSHOT), Remote Hosts Access (0.1), SASS support, SQL support (1.0), SSH Remote Run (0.1), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-09-25 00:53:00,177 [   2116]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2014-09-25 00:53:00,219 [   2158]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/abrahamx/Applications/pycharm-3.4.1/bin/fsnotifier64 
+2014-09-25 00:53:00,226 [   2165]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-09-25 00:53:00,278 [   2217]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-09-25 00:53:01,112 [   3051]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-09-25 00:53:01,332 [   3271]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-09-25 00:53:01,502 [   3441]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-09-25 00:53:01,551 [   3490]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-09-25 00:53:01,558 [   3497]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-09-25 00:53:02,000 [   3939]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-09-25 00:53:02,002 [   3941]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-09-25 00:53:02,006 [   3945]   INFO - pl.stores.ApplicationStoreImpl - 80 application components initialized in 2240 ms 
+2014-09-25 00:53:02,009 [   3948]   INFO - .intellij.idea.IdeaApplication - App initialization took 4493 ms 
+2014-09-25 00:53:10,412 [  12351]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 246 ms 
+2014-09-25 00:53:10,413 [  12352]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-09-25 00:53:16,342 [  18281]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-09-25 00:53:19,959 [  21898]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/removedInterpreters.xml file is null 
+2014-09-25 00:53:20,060 [  21999]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-25 00:53:34,491 [  36430]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py install --build-dir /tmp/pycharm-packaging2561815999156623070.tmp jedi 
+2014-09-25 00:53:41,184 [  43123]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-25 00:53:41,210 [  43149]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python3.4 
+2014-09-25 00:53:41,330 [  43269]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 102 ms 
+2014-09-25 00:53:41,332 [  43271]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/abrahamx/Applications/pycharm-3.4.1 
+2014-09-25 00:53:41,338 [  43277]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.Qt 
+2014-09-25 00:53:41,545 [  43484]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtAssistant 
+2014-09-25 00:53:41,664 [  43603]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtCore 
+2014-09-25 00:53:41,926 [  43865]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDBus 
+2014-09-25 00:53:42,011 [  43950]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDeclarative 
+2014-09-25 00:53:42,150 [  44089]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDesigner 
+2014-09-25 00:53:42,283 [  44222]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtGui 
+2014-09-25 00:53:42,408 [  44347]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtHelp 
+2014-09-25 00:53:42,569 [  44508]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtNetwork 
+2014-09-25 00:53:42,710 [  44649]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtScript 
+2014-09-25 00:53:42,813 [  44752]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtScriptTools 
+2014-09-25 00:53:42,918 [  44857]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtSvg 
+2014-09-25 00:53:43,098 [  45037]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtTest 
+2014-09-25 00:53:43,228 [  45167]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtWebKit 
+2014-09-25 00:53:43,470 [  45409]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtXml 
+2014-09-25 00:53:43,609 [  45548]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtXmlPatterns 
+2014-09-25 00:53:43,739 [  45678]   INFO - .skeletons.PySkeletonRefresher - Skeleton for sip 
+2014-09-25 00:53:43,813 [  45752]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 2480 ms 
+2014-09-25 00:59:07,386 [ 369325]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-09-25 00:59:07,409 [ 369348]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-09-25 00:59:07,438 [ 369377]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-09-25 00:59:07,438 [ 369377]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-09-25 00:59:07,439 [ 369378]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-09-25 00:59:07,443 [ 369382]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-09-25 00:59:07,445 [ 369384]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-09-25 00:59:07,445 [ 369384]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-09-25 00:59:07,448 [ 369387]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-09-25 01:01:14,741 [      1]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-09-25 01:01:14,759 [     19]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PY-135.1057, 10 Jun 2014 00:00) 
+2014-09-25 01:01:14,759 [     19]   INFO -        #com.intellij.idea.Main - OS: Linux (3.14-2-amd64, amd64) 
+2014-09-25 01:01:14,759 [     19]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-09-25 01:01:14,760 [     20]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-09-25 01:01:14,762 [     22]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/home/abrahamx/Applications/pycharm-3.4.1/bin/pycharm64.vmoptions -Xbootclasspath/a:/home/abrahamx/Applications/pycharm-3.4.1/bin/../lib/boot.jar -Didea.paths.selector=PyCharm30 -Didea.platform.prefix=Python -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-09-25 01:01:14,789 [     49]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 27 ms 
+2014-09-25 01:01:14,824 [     84]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 34 ms 
+2014-09-25 01:01:15,308 [    568]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2014-09-25 01:01:15,876 [   1136]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-09-25 01:01:15,889 [   1149]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-09-25 01:01:16,435 [   1695]   INFO - llij.ide.plugins.PluginManager - 41 plugins initialized in 972 ms 
+2014-09-25 01:01:16,436 [   1696]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: AngularJS (135), CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Django Database Support Integration (1.0), File Watchers (999.999), Flask Microframework Support, GNU GetText files support (*.po) (135.SNAPSHOT), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, Ini4Idea (999.999), IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), Python JavaScript Debugger Integration (VERSION), Python Localization Integration (VERSION), Python ReStructureText Integration (VERSION), Python Remote Interpreter (VERSION), Python UML Diagrams (VERSION), REST Client, ReStructuredText Support (135.SNAPSHOT), Remote Hosts Access (0.1), SASS support, SQL support (1.0), SSH Remote Run (0.1), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-09-25 01:01:16,863 [   2123]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2014-09-25 01:01:16,903 [   2163]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/abrahamx/Applications/pycharm-3.4.1/bin/fsnotifier64 
+2014-09-25 01:01:16,910 [   2170]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-09-25 01:01:16,974 [   2234]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-09-25 01:01:17,909 [   3169]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-09-25 01:01:18,105 [   3365]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-09-25 01:01:18,307 [   3567]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-09-25 01:01:18,342 [   3602]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-09-25 01:01:18,348 [   3608]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-09-25 01:01:18,846 [   4106]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-09-25 01:01:18,849 [   4109]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-09-25 01:01:18,853 [   4113]   INFO - pl.stores.ApplicationStoreImpl - 80 application components initialized in 2384 ms 
+2014-09-25 01:01:18,856 [   4116]   INFO - .intellij.idea.IdeaApplication - App initialization took 4652 ms 
+2014-09-25 01:01:19,504 [   4764]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 266 ms 
+2014-09-25 01:01:19,505 [   4765]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-09-25 01:02:38,649 [  83909]   INFO - plication.impl.ApplicationImpl - ApplicationImpl.externalInstanceListener invocation 
+2014-09-25 01:02:38,650 [  83910]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2014-09-25 01:03:23,202 [ 128462]   INFO - plication.impl.ApplicationImpl - ApplicationImpl.externalInstanceListener invocation 
+2014-09-25 01:03:23,202 [ 128462]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2014-09-25 01:04:23,772 [ 189032]   INFO - plication.impl.ApplicationImpl - ApplicationImpl.externalInstanceListener invocation 
+2014-09-25 01:04:23,772 [ 189032]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2014-09-25 01:04:35,353 [ 200613]   INFO - plication.impl.ApplicationImpl - ApplicationImpl.externalInstanceListener invocation 
+2014-09-25 01:04:35,353 [ 200613]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2014-09-25 01:05:11,175 [ 236435]   INFO - plication.impl.ApplicationImpl - ApplicationImpl.externalInstanceListener invocation 
+2014-09-25 01:05:11,175 [ 236435]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2014-09-25 01:06:27,573 [ 312833]   INFO - plication.impl.ApplicationImpl - ApplicationImpl.externalInstanceListener invocation 
+2014-09-25 01:06:27,573 [ 312833]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2014-09-25 01:10:30,712 [ 555972]   INFO - plication.impl.ApplicationImpl - ApplicationImpl.externalInstanceListener invocation 
+2014-09-25 01:10:30,712 [ 555972]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2014-09-25 01:10:30,713 [ 555973]   INFO - ellij.ide.CommandLineProcessor - Dir: /home/abrahamx/Applications/pycharm-3.4.1/bin/. 
+2014-09-25 01:10:30,713 [ 555973]   INFO - ellij.ide.CommandLineProcessor - --help 
+2014-09-25 01:10:30,713 [ 555973]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2014-09-25 01:10:36,094 [ 561354]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-09-25 01:10:36,114 [ 561374]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-09-25 01:10:36,114 [ 561374]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-09-25 01:10:36,114 [ 561374]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-09-25 01:10:36,114 [ 561374]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-09-25 01:10:36,115 [ 561375]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-09-25 01:10:36,206 [ 561466]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-09-25 01:10:36,206 [ 561466]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-09-25 01:10:36,207 [ 561467]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-09-25 01:10:36,209 [ 561469]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-09-25 01:10:41,128 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-09-25 01:10:41,140 [     12]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PY-135.1057, 10 Jun 2014 00:00) 
+2014-09-25 01:10:41,140 [     12]   INFO -        #com.intellij.idea.Main - OS: Linux (3.14-2-amd64, amd64) 
+2014-09-25 01:10:41,140 [     12]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-09-25 01:10:41,140 [     12]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-09-25 01:10:41,142 [     14]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=./pycharm64.vmoptions -Xbootclasspath/a:./../lib/boot.jar -Didea.paths.selector=PyCharm30 -Didea.platform.prefix=Python -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-09-25 01:10:41,163 [     35]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 21 ms 
+2014-09-25 01:10:41,199 [     71]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 36 ms 
+2014-09-25 01:10:41,526 [    398]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2014-09-25 01:10:42,026 [    898]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-09-25 01:10:42,040 [    912]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-09-25 01:10:42,518 [   1390]   INFO - llij.ide.plugins.PluginManager - 41 plugins initialized in 857 ms 
+2014-09-25 01:10:42,518 [   1390]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: AngularJS (135), CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Django Database Support Integration (1.0), File Watchers (999.999), Flask Microframework Support, GNU GetText files support (*.po) (135.SNAPSHOT), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, Ini4Idea (999.999), IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), Python JavaScript Debugger Integration (VERSION), Python Localization Integration (VERSION), Python ReStructureText Integration (VERSION), Python Remote Interpreter (VERSION), Python UML Diagrams (VERSION), REST Client, ReStructuredText Support (135.SNAPSHOT), Remote Hosts Access (0.1), SASS support, SQL support (1.0), SSH Remote Run (0.1), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-09-25 01:10:42,827 [   1699]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2014-09-25 01:10:42,860 [   1732]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/abrahamx/Applications/pycharm-3.4.1/bin/fsnotifier64 
+2014-09-25 01:10:42,866 [   1738]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-09-25 01:10:42,910 [   1782]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-09-25 01:10:43,682 [   2554]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-09-25 01:10:43,874 [   2746]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-09-25 01:10:44,032 [   2904]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-09-25 01:10:44,066 [   2938]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-09-25 01:10:44,071 [   2943]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-09-25 01:10:44,337 [   3209]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-09-25 01:10:44,338 [   3210]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-09-25 01:10:44,342 [   3214]   INFO - pl.stores.ApplicationStoreImpl - 80 application components initialized in 1803 ms 
+2014-09-25 01:10:44,343 [   3215]   INFO - .intellij.idea.IdeaApplication - App initialization took 3599 ms 
+2014-09-25 01:10:46,928 [   5800]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 165 ms 
+2014-09-25 01:10:46,929 [   5801]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-09-25 01:10:47,854 [   6726]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-09-25 01:11:14,272 [  33144]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/removedInterpreters.xml file is null 
+2014-09-25 01:11:14,400 [  33272]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-25 01:11:22,869 [  41741]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py install --build-dir /tmp/pycharm-packaging7519477211806205095.tmp -U pip 
+2014-09-25 01:11:28,350 [  47222]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-25 01:11:28,367 [  47239]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python3.4 
+2014-09-25 01:11:28,503 [  47375]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 120 ms 
+2014-09-25 01:11:28,503 [  47375]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/abrahamx/Applications/pycharm-3.4.1 
+2014-09-25 01:11:28,529 [  47401]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 25 ms 
+2014-09-25 01:11:33,796 [  52668]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py install --build-dir /tmp/pycharm-packaging7987299794465799024.tmp -U setuptools 
+2014-09-25 01:11:37,145 [  56017]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.4 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-25 01:11:37,157 [  56029]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python3.4 
+2014-09-25 01:11:37,286 [  56158]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 125 ms 
+2014-09-25 01:11:37,286 [  56158]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/abrahamx/Applications/pycharm-3.4.1 
+2014-09-25 01:11:37,299 [  56171]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 12 ms 
+2014-09-25 01:11:42,591 [  61463]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-25 01:11:49,975 [  68847]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py install --build-dir /tmp/pycharm-packaging2544863623052765275.tmp jedi 
+2014-09-25 01:11:52,074 [  70946]   INFO - rains.python.sdk.PythonSdkType - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2014-09-25 01:11:52,080 [  70952]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-25 01:11:52,108 [  70980]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2014-09-25 01:11:52,302 [  71174]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 191 ms 
+2014-09-25 01:11:52,303 [  71175]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/abrahamx/Applications/pycharm-3.4.1 
+2014-09-25 01:11:52,312 [  71184]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.Qt 
+2014-09-25 01:11:52,483 [  71355]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtAssistant 
+2014-09-25 01:11:52,572 [  71444]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtCore 
+2014-09-25 01:11:54,382 [  73254]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDBus 
+2014-09-25 01:11:54,589 [  73461]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDeclarative 
+2014-09-25 01:11:54,800 [  73672]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtDesigner 
+2014-09-25 01:11:55,002 [  73874]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtGui 
+2014-09-25 01:12:00,090 [  78962]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtHelp 
+2014-09-25 01:12:00,215 [  79087]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtNetwork 
+2014-09-25 01:12:00,748 [  79620]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtScript 
+2014-09-25 01:12:00,939 [  79811]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtScriptTools 
+2014-09-25 01:12:01,019 [  79891]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtSvg 
+2014-09-25 01:12:01,129 [  80001]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtTest 
+2014-09-25 01:12:01,223 [  80095]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtWebKit 
+2014-09-25 01:12:01,557 [  80429]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtXml 
+2014-09-25 01:12:01,840 [  80712]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtXmlPatterns 
+2014-09-25 01:12:02,022 [  80894]   INFO - .skeletons.PySkeletonRefresher - Skeleton for dbus.mainloop.qt 
+2014-09-25 01:12:02,101 [  80973]   INFO - .skeletons.PySkeletonRefresher - Skeleton for sip 
+2014-09-25 01:12:02,156 [  81028]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 9852 ms 
+2014-09-25 01:14:03,335 [ 202207]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py install --build-dir /tmp/pycharm-packaging762776506881187113.tmp elpy 
+2014-09-25 01:14:09,709 [ 208581]   INFO - rains.python.sdk.PythonSdkType - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2014-09-25 01:14:09,713 [ 208585]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-25 01:14:09,736 [ 208608]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2014-09-25 01:14:09,835 [ 208707]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 98 ms 
+2014-09-25 01:14:09,836 [ 208708]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/abrahamx/Applications/pycharm-3.4.1 
+2014-09-25 01:14:09,838 [ 208710]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtCore 
+2014-09-25 01:14:11,663 [ 210535]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtGui 
+2014-09-25 01:14:16,786 [ 215658]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtNetwork 
+2014-09-25 01:14:17,322 [ 216194]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtXml 
+2014-09-25 01:14:17,605 [ 216477]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 7769 ms 
+2014-09-25 01:15:00,700 [ 259572]   INFO - rains.python.sdk.PythonSdkType - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2014-09-25 01:15:00,724 [ 259596]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-25 01:15:01,234 [ 260106]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2014-09-25 01:15:01,324 [ 260196]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 89 ms 
+2014-09-25 01:15:01,325 [ 260197]   INFO - .skeletons.PySkeletonRefresher - Home path is /home/abrahamx/Applications/pycharm-3.4.1 
+2014-09-25 01:15:01,327 [ 260199]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtCore 
+2014-09-25 01:15:03,230 [ 262102]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtGui 
+2014-09-25 01:15:08,522 [ 267394]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtNetwork 
+2014-09-25 01:15:09,052 [ 267924]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PyQt4.QtXml 
+2014-09-25 01:15:09,335 [ 268207]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 8010 ms 
+2014-09-25 01:15:15,905 [ 274777]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-09-25 01:15:15,928 [ 274800]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-09-25 01:15:15,928 [ 274800]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-09-25 01:15:15,928 [ 274800]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-09-25 01:15:15,930 [ 274802]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-09-25 01:15:15,931 [ 274803]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-09-25 01:15:16,121 [ 274993]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-09-25 01:15:16,121 [ 274993]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-09-25 01:15:16,122 [ 274994]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-09-25 01:15:16,124 [ 274996]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-09-25 01:38:36,639 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-09-25 01:38:36,658 [     19]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PY-135.1057, 10 Jun 2014 00:00) 
+2014-09-25 01:38:36,658 [     19]   INFO -        #com.intellij.idea.Main - OS: Linux (3.14-2-amd64, amd64) 
+2014-09-25 01:38:36,658 [     19]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-09-25 01:38:36,658 [     19]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-09-25 01:38:36,660 [     21]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/home/abrahamx/Applications/pycharm-3.4.1/bin/pycharm64.vmoptions -Xbootclasspath/a:/home/abrahamx/Applications/pycharm-3.4.1/bin/../lib/boot.jar -Didea.paths.selector=PyCharm30 -Didea.platform.prefix=Python -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-09-25 01:38:36,682 [     43]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 22 ms 
+2014-09-25 01:38:36,715 [     76]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 33 ms 
+2014-09-25 01:38:37,040 [    401]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2014-09-25 01:38:37,562 [    923]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-09-25 01:38:37,575 [    936]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-09-25 01:38:38,048 [   1409]   INFO - llij.ide.plugins.PluginManager - 41 plugins initialized in 865 ms 
+2014-09-25 01:38:38,048 [   1409]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: AngularJS (135), CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Django Database Support Integration (1.0), File Watchers (999.999), Flask Microframework Support, GNU GetText files support (*.po) (135.SNAPSHOT), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, Ini4Idea (999.999), IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), Python JavaScript Debugger Integration (VERSION), Python Localization Integration (VERSION), Python ReStructureText Integration (VERSION), Python Remote Interpreter (VERSION), Python UML Diagrams (VERSION), REST Client, ReStructuredText Support (135.SNAPSHOT), Remote Hosts Access (0.1), SASS support, SQL support (1.0), SSH Remote Run (0.1), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-09-25 01:38:38,363 [   1724]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2014-09-25 01:38:38,399 [   1760]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/abrahamx/Applications/pycharm-3.4.1/bin/fsnotifier64 
+2014-09-25 01:38:38,405 [   1766]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-09-25 01:38:38,451 [   1812]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-09-25 01:38:39,134 [   2495]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-09-25 01:38:39,318 [   2679]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-09-25 01:38:39,459 [   2820]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-09-25 01:38:39,490 [   2851]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-09-25 01:38:39,495 [   2856]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-09-25 01:38:39,766 [   3127]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-09-25 01:38:39,768 [   3129]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-09-25 01:38:39,772 [   3133]   INFO - pl.stores.ApplicationStoreImpl - 80 application components initialized in 1702 ms 
+2014-09-25 01:38:39,773 [   3134]   INFO - .intellij.idea.IdeaApplication - App initialization took 3524 ms 
+2014-09-25 01:38:41,813 [   5174]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 165 ms 
+2014-09-25 01:38:41,814 [   5175]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-09-25 01:38:43,329 [   6690]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-09-25 01:38:44,668 [   8029]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/removedInterpreters.xml file is null 
+2014-09-25 01:38:44,848 [   8209]   WARN - on.sdk.flavors.PythonSdkFlavor - Couldn't get interpreter version: process exited with code 1
+Traceback (most recent call last):
+  File "/usr/share/texlive/texmf-dist/scripts/pythontex/pythontex3.py", line 61, in <module>
+    from pygments.styles import get_all_styles
+ImportError: No module named 'pygments'
+ 
+2014-09-25 01:38:44,939 [   8300]   WARN - on.sdk.flavors.PythonSdkFlavor - Couldn't get interpreter version: process exited with code 2
+usage: pythontex.py [-h] [--version] [--encoding ENCODING]
+                    [--error-exit-code {true,false}] [--runall [{true,false}]
+                    | --rerun {never,modified,errors,warnings,always}]
+                    [--hashdependencies [{true,false}]] [-j N] [-v]
+                    [--interpreter INTERPRETER]
+                    [--debug [<family>:<session>:<restart>] | --interactive
+                    [<family>:<session>:<restart>]]
+                    TEXNAME
+pythontex.py: error: too few arguments
+ 
+2014-09-25 01:38:44,947 [   8308]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /home/abrahamx/Applications/pycharm-3.4.1/helpers/packaging_tool.py list 
+2014-09-25 15:32:23,106 [50026467]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-09-25 15:32:23,121 [50026482]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-09-25 15:32:23,121 [50026482]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-09-25 15:32:23,122 [50026483]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-09-25 15:32:23,122 [50026483]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-09-25 15:32:23,124 [50026485]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-09-25 15:32:23,186 [50026547]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-09-25 15:32:23,187 [50026548]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-09-25 15:32:23,187 [50026548]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-09-25 15:32:23,189 [50026550]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 

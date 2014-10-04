@@ -1,0 +1,264 @@
+(require (planet "random.ss" ("schematics" "random.plt" 1 0)))
+
+RANDOM NUMBERS
+==============
+
+Introduction
+============
+
+This library provides functions to produce random numbers of various
+distributions. The library uses the same approach as taken by SRFI 27: 
+"Sources of Random Bits". 
+
+_Random Variables_
+==================
+
+A _random variable_ is a function with no input, that produces a
+number each time it is called. 
+
+    X : -> number
+
+Let x={x_1, x_2, ...} be the sequence of numbers returned by calling
+X repeatedly. If the sequence x has the same properties as a random
+sequence with a given distribution, we will say that X is a random
+variable with the given distribution.
+
+This library provides ways of generating random variables with
+different distributions.
+
+Overview of interface
+=====================
+
+The "no fuss" interface simply generates the next random number of a
+given distribution using bits from the default source of random bits. 
+
+    > (require (planet "random.ss" ("schematics" "random.plt" 1 0)))
+
+    > (random-gaussian)
+    0.7386912134436788
+
+For simulation purposes it is usually neccesary to have explicit
+access to the state of the underlying random bit generator in order to
+reliably reproduce results. Therefore functions are provided where one
+can specify which random source is to be used. 
+
+    > (define X (random-source-make-gaussians default-random-source))
+    > (X)
+    -0.24588198549160234
+
+_Provided Functions_
+====================
+
+The following functions are provided:
+
+Discrete distributions:
+
+    _random-source-make-integers_      _random-integer_                   
+    _random-source-make-geometrics_    _random-geometric_
+    _random-source-make-binomials_     _random-binomial_ 
+    _random-source-make-poissons_      _random-poisson_
+
+    _random-source-make-permutations_  _random-permutation_  
+
+    _random-source-make-discretes_
+
+Continous distributions:
+
+    _random-source-make-reals_         _random-real_                      
+    _random-source-make-unit-discs_    _random-unit-disc_
+    _random-source-make-normals_       _random-normal_
+    _random-source-make-gaussians_     _random-gaussian_
+    _random-source-make-exponentials_  _random-exponential_
+    _random-source-make-gammas_        _random-gamma_
+    _random-source-make-betas_         _random-beta_
+    _random-source-make-chi-squares_   _random-chi-square_    
+    _random-source-make-Fs_            _random-F_
+    _random-source-make-ts_            _random-t_
+
+Sources of random bits:
+
+    _default-random-source_ 
+
+Explicit manipulation of random sources (reexported from srfi-27): 
+
+   _make-random-source random-source?_ _random-source-state-ref_
+   _random-source-state-set!_ _random-source-randomize!_
+   _random-source-pseudo-randomize!_  
+
+General Remarks
+===============
+
+The functions prefixed with random constitute the no fuss-interface,
+they all use default-random-source as their source of random bits.
+Some of these distributions have parameters, and they must given in
+order to generate a random number. E.g. the normal distribution has
+two parameters my and sigma, where my is the mean and sigma squared
+is the variance.
+
+    > (random-normal 0 2)
+    -2.1002646826655758
+
+The function named random-source-make-<dist>s generate a function that 
+behave the same way as the random-<dist> but uses the given random
+source in stead of the defualt. As an example, random-normal is
+implemented like this:
+
+  (define random-normal
+    (random-source-make-normals default-random-source))
+
+See the documentation for srfi-27 for further explanation.
+
+
+_Discrete distributions_
+========================
+
+_Random integers_
+           
+random-integer : integer -> {0, ..., n-1}
+   (random-integer n) gives the next integer x in {0, ..., n-1}
+   obtained from default-random-source. Subsequent results of this
+   procedure appear to be independent uniformly distributed over the
+   range {0, ..., n-1}. The argument n must be a positive integer,
+   otherwise an error is signalled.  
+
+_The Geometric Distribution_
+
+random-geometric : p -> integer
+    The geometric distribution of the parameter p has the probability
+    function: 
+                        n-1  
+        P(n) =   p (1-p)      , where 0<p<1
+
+    The mean is  my = 1/p  and the variance is  sigma^2 =  (1-p)/p^2 . 
+
+
+_Binomial Distribution_
+
+random-binomial : n p -> integer
+  n is the number-of-trials-parameter,
+  p is the probability parameter
+
+
+_Poisson Distribution_
+
+random-poisson : my -> integer
+    The Poisson distribution with mean my.
+
+
+_Permutations_  
+
+random-source-make-permutations : source -> (integer - > vector)
+    produces a function that given an integer n generates permutations
+    of the numbers 0,...,n-1  i.e. a vector of length n is returned
+    containing the numbers 0 to n-1 in some order.
+
+
+_Discrete Distribution_
+
+random-source-make-discretes : s w -> integer
+    given a source s of random bits in the sense of SRFI-27 and a
+    vector w of n >= 1 non-negative real numbers, this procedure
+    constructs and returns a procedure rand such that (rand) returns
+    the next integer x in {0..n-1} from a pseudo random sequence with
+   
+        Pr{x = k} = w[k] / Sum(w[i] : i)    , for all k in {0..n-1}. 
+
+
+
+_Continous Distributions_
+=========================
+
+_Uniform distribution on the unit interval_
+
+random-real : -> ]0;1[
+    Gives the next number 0 < x < 1 obtained from
+    default-random-source.  Subsequent results of this procedure
+    appear to be independent uniformly distributed.  The numerical
+    type of the results and the quantization of the output range
+    depend on the implementation; refer to random-source-make-reals
+    for details.
+
+
+_Normal Distribution_
+
+random-normal : mu sigma -> real
+    generates N(mu,sigma)-distributed numbers
+
+                              1     /x         2
+   Distribution:  F(x) = ---------  |    exp(-t / 2) dt   , mu=0, sigma=1
+                         sqrt(2pi)  /-infinity
+
+random-gaussian :  -> real
+    generates N(0,1)-distributed numbers
+
+
+_Exponential Distribution_
+
+random-exponential : my -> real
+   generates Exp(mu)-distributed random numbers
+
+  Distribution:  F(x) = 1 - exp(-x/mu)   , mu is the mean
+
+
+_Gamma Distribution_
+
+random-gamma : a -> real
+  generate Gamma(a)-distributed numbers
+  
+  Distribution: The gamma distribition of order a>0
+  
+                 1       /x    a-1  -t
+       F(x) = ---------  |    t    e   dt,  x>=0
+              gamma(a)   /0
+
+
+_Beta Distribution_
+
+random-beta : a b -> real
+  generate Beta(a,b)-distributed numbers 
+  
+   Distribution:  Beta distribution with a>0 and b>0
+  
+                gamma(a+b)     / x   a-1      b-1
+    F(x) =  -----------------  |    t    (1-t)     dt    , 0<= x <= 1
+            gamma(a) gamma(b)  / 0
+
+_Chi-Square Distribution_
+
+random-chi-square : ny -> real
+    generate Chi(ny)-distributed numbers 
+  
+
+_F-Distribution_
+
+random-F : ny1 ny2 -> real
+    generate F(ny1,ny2)-distributed numbers
+
+  The F-distribution (variance-ratio distribution) with
+  ny1 and ny2 degrees of freedom:
+
+               ny1/2    ny2/2
+            ny1      ny2     gamma((ny1+ny2)/2)  / x   ny1/2-1           -ny1/2-ny2/2b-1
+    F(x) =  -----------------------------------  |    t        (ny2+ny1t)                dt    
+            gamma(ny1/2) gamma(ny2/2)            /0
+  
+   where x>=0.
+                 
+
+_t-distribution_
+
+random-t : ny -> real
+    generate t(ny)-distributed numbers
+
+  The t-distribution with ny degrees of freedom
+  
+            
+            gamma((ny+1)/2)           / x         2     -(ny+1)/2
+    F(x) =  -----------------------   |     (1 + t / ny)          dt    
+            sqrt(pi ny) gamma(ny/2)   /-inf
+
+
+_Uniform Unit Disc-Distribution_
+
+random-unit-disc : -> (values ]0;1[ ]0;1[ )
+    generate coordinates distributed uniformly in the unit disc 

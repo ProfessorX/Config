@@ -1,0 +1,109 @@
+2014-09-13 17:34:52,496 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-09-13 17:34:52,506 [     10]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-135.1230, 21 Jul 2014 00:00) 
+2014-09-13 17:34:52,506 [     10]   INFO -        #com.intellij.idea.Main - OS: Linux (3.14-2-amd64, amd64) 
+2014-09-13 17:34:52,506 [     10]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-09-13 17:34:52,506 [     10]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-09-13 17:34:52,509 [     13]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=./idea64.vmoptions -Xbootclasspath/a:./../lib/boot.jar -Didea.paths.selector=IntelliJIdea13 -Djb.restart.code=88 
+2014-09-13 17:34:52,525 [     29]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 16 ms 
+2014-09-13 17:34:52,537 [     41]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 11 ms 
+2014-09-13 17:35:21,677 [  29181]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor flex-ide-specific.xml 
+2014-09-13 17:35:21,973 [  29477]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-tapestry-support.xml 
+2014-09-13 17:35:22,330 [  29834]   INFO -   #com.intellij.AbstractBundle - Cannot load resource bundle from *.properties file, falling back to slow class loading: com.intellij.javaee.cloudfoundry.CFBundle 
+2014-09-13 17:35:22,331 [  29835]   INFO - j.ide.plugins.PluginDescriptor - Cannot find plugin CloudFoundry resource-bundle: com.intellij.javaee.cloudfoundry.CFBundle 
+2014-09-13 17:35:31,872 [  39376]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2014-09-13 17:35:32,183 [  39687]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor flex-ide-specific.xml 
+2014-09-13 17:35:32,332 [  39836]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-tapestry-support.xml 
+2014-09-13 17:35:32,716 [  40220]   INFO - llij.ide.plugins.PluginManager - 124 plugins initialized in 770 ms 
+2014-09-13 17:35:32,718 [  40222]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), Android Support (10.0), Ant Support (1.0), Application Servers View (0.2.0), AspectJ Support (1.1), Byte Code Viewer (0.1), CFML Support (3.53), CSS Support, CVS Integration (11), ClearCase Integration (2.0), Cloud Foundry integration (1.0), CloudBees integration (1.0), CoffeeScript (2.0), Commander (1.0.0), Copyright (8.1), Coverage, Cucumber for Groovy (999.999), Cucumber for Java (999.999), DSM Analysis (1.0.0), Database Support (1.0), Eclipse Integration (3.0), Emma, Flash/Flex Support (1.0), FreeMarker support (1.0), GWT Support (1.0), Geronimo Integration (1.0), Gherkin (999.999), Git Integration (8.1), GitHub, GlassFish Integration (1.0), Google App Engine Integration (1.1.4), Gradle, Grails (9.0), Groovy (9.0), GuiceyIDEA (8.0), HAML, HTML Tools (2.0), Heroku integration (1.0), Hibernate Support (1.0), I18n for Java, IDEA CORE, IDEtalk (1.0), IntelliLang (8.0), J2ME (1.0), JBoss Drools Support (1.0), JBoss Integration (1.0), JBoss Seam Pageflow Support (1.0), JBoss Seam Pages Support (1.0), JBoss Seam Support (1.0), JBoss jBPM (2.0.0), JSR45 Integration (1.0), JUnit (1.0), Java EE: Batch Applications (1.0), Java EE: Bean Validation Support (1.1), Java EE: Contexts and Dependency Injection (1.1), Java EE: EJB, JPA, Servlets (1.0), Java EE: JMS, JSON Processing, Concurrency, Transaction  (1.0), Java EE: Java Server Faces (2.2.X.), Java EE: RESTful Web Services (JAX-RS) (1.0), Java EE: Web Services (JAX-WS) (1.9), Java EE: WebSockets (1.0), Java Server Pages Integration (1.0), JavaFX (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Jetty Integration (1.0), LESS support, Maven Integration, Maven Integration Extension, OpenShift integration (1.0), Osmorc (1.4.4), Perforce Integration (2.0), Persistence Frameworks Support (1.0), Playframework Support (1.0), Plugin DevKit (1.0), Properties Support, QuirksMode, REST Client, Refactor-X (2.01), Remote Hosts Access (0.1), Resin Integration (8.1), SASS support, SQL support (1.0), SSH Remote Run (0.1), Spring AOP/@AspectJ (1.0), Spring Batch (1.0), Spring Data (1.0), Spring Integration Patterns (1.0), Spring MVC Support (1.0), Spring OSGi (1.0), Spring Roo Console (1.0), Spring Security (1.0), Spring Support (1.0), Spring Web Flow (1.0), Spring Web Services (1.0), Spy-js (999.999), Structural Search (9.0), Struts 1.x (2.0), Struts 2 (1.0), Stylus support (999.999), Subversion Integration (1.1), TFS Integration (999.999), Tapestry support (1.0), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), Time Tracking (1.0), Tomcat and TomEE Integration (1.0), Type Migration, UI Designer, UML Support (1.0), Vaadin Support (1.0), Velocity support (1.0), Visual SourceSafe Integration (2.0), W3C Validators (2.0), WebLogic Integration (1.0), WebSphere Integration (1.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML, ZKM-Unscramble (1.0), dmServer Support (0.9.5), hg4idea (10.0) 
+2014-09-13 17:35:33,492 [  40996]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2014-09-13 17:35:33,493 [  40997]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2014-09-13 17:35:33,529 [  41033]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/abrahamx/Applications/idea-IU-135.1230/bin/fsnotifier64 
+2014-09-13 17:35:33,536 [  41040]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-09-13 17:35:33,585 [  41089]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/other.xml file is null 
+2014-09-13 17:35:33,595 [  41099]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/project.default.xml file is null 
+2014-09-13 17:35:33,629 [  41133]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/filetypes.xml file is null 
+2014-09-13 17:35:34,377 [  41881]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 5), rebuilding... 
+2014-09-13 17:35:34,377 [  41881]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2014-09-13 17:35:34,393 [  41897]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-09-13 17:35:34,394 [  41898]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-09-13 17:35:34,395 [  41899]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/options.xml file is null 
+2014-09-13 17:35:34,429 [  41933]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-09-13 17:35:34,431 [  41935]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/usage.statistics.xml file is null 
+2014-09-13 17:35:34,433 [  41937]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2014-09-13 17:35:34,647 [  42151]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/keymap.xml file is null 
+2014-09-13 17:35:34,736 [  42240]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/abbreviations.xml file is null 
+2014-09-13 17:35:34,853 [  42357]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-09-13 17:35:34,875 [  42379]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ide.general.xml file is null 
+2014-09-13 17:35:36,466 [  43970]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/stubIndex.xml file is null 
+2014-09-13 17:35:36,524 [  44028]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.xml file is null 
+2014-09-13 17:35:36,526 [  44030]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-09-13 17:35:36,530 [  44034]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-09-13 17:35:36,667 [  44171]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /home/abrahamx/Applications/idea-IU-135.1230/lib/idea.jar!/resources/html5-schema/html5.rnc 
+2014-09-13 17:35:36,667 [  44171]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /home/abrahamx/Applications/idea-IU-135.1230/lib/idea.jar!/resources/html5-schema/xhtml5.rnc 
+2014-09-13 17:35:36,667 [  44171]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /home/abrahamx/Applications/idea-IU-135.1230/lib/idea.jar!/resources/html5-schema/html5chars.ent 
+2014-09-13 17:35:36,848 [  44352]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/colors.scheme.xml file is null 
+2014-09-13 17:35:36,852 [  44356]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.codeinsight.xml file is null 
+2014-09-13 17:35:36,993 [  44497]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-09-13 17:35:37,059 [  44563]   INFO - ellij.project.impl.ProjectImpl - 24 project components initialized in 380 ms 
+2014-09-13 17:35:37,059 [  44563]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-09-13 17:35:37,116 [  44620]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-09-13 17:35:37,279 [  44783]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/jdk.table.xml file is null 
+2014-09-13 17:35:37,304 [  44808]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/androidRemoteDatabases.xml file is null 
+2014-09-13 17:35:37,314 [  44818]   INFO - pl.stores.ApplicationStoreImpl - 105 application components initialized in 4572 ms 
+2014-09-13 17:35:37,316 [  44820]   INFO - .intellij.idea.IdeaApplication - App initialization took 47887 ms 
+2014-09-13 17:35:37,841 [  45345]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plugin_ui.xml file is null 
+2014-09-13 17:35:44,826 [  52330]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2014-09-13 17:35:44,851 [  52355]   WARN - pl.ExternalResourceManagerImpl - Cannot find standard resource. filename:/META-INF/tapestry_5_0_0.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null 
+2014-09-13 17:36:16,582 [  84086]   INFO - ins.android.sdk.AndroidSdkData - DDMLib terminated 
+2014-09-13 17:36:16,588 [  84092]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-09-13 17:36:16,609 [  84113]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-09-13 17:36:16,609 [  84113]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-09-13 17:36:16,609 [  84113]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-09-13 17:36:16,609 [  84113]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-09-13 17:36:16,610 [  84114]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-09-13 17:36:16,777 [  84281]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-09-13 17:36:16,777 [  84281]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-09-13 17:36:16,778 [  84282]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-09-13 17:36:16,782 [  84286]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-09-25 01:05:40,808 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-09-25 01:05:40,820 [     12]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-135.1230, 21 Jul 2014 00:00) 
+2014-09-25 01:05:40,820 [     12]   INFO -        #com.intellij.idea.Main - OS: Linux (3.14-2-amd64, amd64) 
+2014-09-25 01:05:40,820 [     12]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-09-25 01:05:40,820 [     12]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-09-25 01:05:40,822 [     14]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/home/abrahamx/Applications/idea-IU-135.1230/bin/idea64.vmoptions -Xbootclasspath/a:/home/abrahamx/Applications/idea-IU-135.1230/bin/../lib/boot.jar -Didea.paths.selector=IntelliJIdea13 -Djb.restart.code=88 
+2014-09-25 01:05:40,842 [     34]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 20 ms 
+2014-09-25 01:05:40,875 [     67]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 33 ms 
+2014-09-25 01:05:41,203 [    395]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2014-09-25 01:05:41,834 [   1026]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor flex-ide-specific.xml 
+2014-09-25 01:05:42,115 [   1307]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-tapestry-support.xml 
+2014-09-25 01:05:42,589 [   1781]   INFO - llij.ide.plugins.PluginManager - 124 plugins initialized in 1242 ms 
+2014-09-25 01:05:42,590 [   1782]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), Android Support (10.0), Ant Support (1.0), Application Servers View (0.2.0), AspectJ Support (1.1), Byte Code Viewer (0.1), CFML Support (3.53), CSS Support, CVS Integration (11), ClearCase Integration (2.0), Cloud Foundry integration (1.0), CloudBees integration (1.0), CoffeeScript (2.0), Commander (1.0.0), Copyright (8.1), Coverage, Cucumber for Groovy (999.999), Cucumber for Java (999.999), DSM Analysis (1.0.0), Database Support (1.0), Eclipse Integration (3.0), Emma, Flash/Flex Support (1.0), FreeMarker support (1.0), GWT Support (1.0), Geronimo Integration (1.0), Gherkin (999.999), Git Integration (8.1), GitHub, GlassFish Integration (1.0), Google App Engine Integration (1.1.4), Gradle, Grails (9.0), Groovy (9.0), GuiceyIDEA (8.0), HAML, HTML Tools (2.0), Heroku integration (1.0), Hibernate Support (1.0), I18n for Java, IDEA CORE, IDEtalk (1.0), IntelliLang (8.0), J2ME (1.0), JBoss Drools Support (1.0), JBoss Integration (1.0), JBoss Seam Pageflow Support (1.0), JBoss Seam Pages Support (1.0), JBoss Seam Support (1.0), JBoss jBPM (2.0.0), JSR45 Integration (1.0), JUnit (1.0), Java EE: Batch Applications (1.0), Java EE: Bean Validation Support (1.1), Java EE: Contexts and Dependency Injection (1.1), Java EE: EJB, JPA, Servlets (1.0), Java EE: JMS, JSON Processing, Concurrency, Transaction  (1.0), Java EE: Java Server Faces (2.2.X.), Java EE: RESTful Web Services (JAX-RS) (1.0), Java EE: Web Services (JAX-WS) (1.9), Java EE: WebSockets (1.0), Java Server Pages Integration (1.0), JavaFX (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Jetty Integration (1.0), LESS support, Maven Integration, Maven Integration Extension, OpenShift integration (1.0), Osmorc (1.4.4), Perforce Integration (2.0), Persistence Frameworks Support (1.0), Playframework Support (1.0), Plugin DevKit (1.0), Properties Support, QuirksMode, REST Client, Refactor-X (2.01), Remote Hosts Access (0.1), Resin Integration (8.1), SASS support, SQL support (1.0), SSH Remote Run (0.1), Spring AOP/@AspectJ (1.0), Spring Batch (1.0), Spring Data (1.0), Spring Integration Patterns (1.0), Spring MVC Support (1.0), Spring OSGi (1.0), Spring Roo Console (1.0), Spring Security (1.0), Spring Support (1.0), Spring Web Flow (1.0), Spring Web Services (1.0), Spy-js (999.999), Structural Search (9.0), Struts 1.x (2.0), Struts 2 (1.0), Stylus support (999.999), Subversion Integration (1.1), TFS Integration (999.999), Tapestry support (1.0), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), Time Tracking (1.0), Tomcat and TomEE Integration (1.0), Type Migration, UI Designer, UML Support (1.0), Vaadin Support (1.0), Velocity support (1.0), Visual SourceSafe Integration (2.0), W3C Validators (2.0), WebLogic Integration (1.0), WebSphere Integration (1.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML, ZKM-Unscramble (1.0), dmServer Support (0.9.5), hg4idea (10.0) 
+2014-09-25 01:05:43,312 [   2504]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2014-09-25 01:05:43,342 [   2534]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/abrahamx/Applications/idea-IU-135.1230/bin/fsnotifier64 
+2014-09-25 01:05:43,348 [   2540]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-09-25 01:05:44,239 [   3431]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-09-25 01:05:44,448 [   3640]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-09-25 01:05:44,685 [   3877]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-09-25 01:05:45,442 [   4634]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-09-25 01:05:45,447 [   4639]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-09-25 01:05:45,648 [   4840]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-09-25 01:05:45,776 [   4968]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/jdk.table.xml file is null 
+2014-09-25 01:05:45,819 [   5011]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/androidRemoteDatabases.xml file is null 
+2014-09-25 01:05:45,849 [   5041]   INFO - pl.stores.ApplicationStoreImpl - 105 application components initialized in 3228 ms 
+2014-09-25 01:05:45,855 [   5047]   INFO - .intellij.idea.IdeaApplication - App initialization took 6086 ms 
+2014-09-25 01:05:46,977 [   6169]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-09-25 01:05:46,985 [   6177]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-09-25 01:05:47,033 [   6225]   INFO - ellij.project.impl.ProjectImpl - 24 project components initialized in 391 ms 
+2014-09-25 01:05:47,034 [   6226]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-09-25 01:05:48,588 [   7780]   WARN - pl.ExternalResourceManagerImpl - Cannot find standard resource. filename:/META-INF/tapestry_5_0_0.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null 
+2014-09-25 01:06:15,124 [  34316]   INFO - ins.android.sdk.AndroidSdkData - DDMLib terminated 
+2014-09-25 01:06:15,129 [  34321]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-09-25 01:06:15,154 [  34346]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-09-25 01:06:15,154 [  34346]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-09-25 01:06:15,155 [  34347]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-09-25 01:06:15,155 [  34347]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-09-25 01:06:15,156 [  34348]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-09-25 01:06:15,228 [  34420]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-09-25 01:06:15,228 [  34420]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-09-25 01:06:15,230 [  34422]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-09-25 01:06:15,233 [  34425]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 

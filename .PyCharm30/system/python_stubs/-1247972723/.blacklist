@@ -1,0 +1,4 @@
+# PyCharm failed to generate skeletons for these modules.
+# These skeletons will be re-generated automatically
+# when a newer module version or an updated generator becomes available.
+/usr/lib/python2.7/dist-packages/gi/_gi.so = 1.135 1409402435000

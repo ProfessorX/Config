@@ -1,0 +1,16 @@
+# PyCharm failed to generate skeletons for these modules.
+# These skeletons will be re-generated automatically
+# when a newer module version or an updated generator becomes available.
+/usr/lib/python3/dist-packages/PyQt4/QtTest.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624794000
+/usr/lib/python3/dist-packages/PyQt4/QtNetwork.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624795000
+/usr/lib/python3/dist-packages/PyQt4/QtDesigner.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624794000
+/usr/lib/python3/dist-packages/PyQt4/QtWebKit.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624795000
+/usr/lib/python3/dist-packages/PyQt4/QtHelp.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624795000
+/usr/lib/python3/dist-packages/PyQt4/QtGui.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624795000
+/usr/lib/python3/dist-packages/PyQt4/QtCore.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624794000
+/usr/lib/python3/dist-packages/PyQt4/QtXmlPatterns.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624794000
+/usr/lib/python3/dist-packages/PyQt4/QtScript.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624794000
+/usr/lib/python3/dist-packages/PyQt4/QtDeclarative.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624795000
+/usr/lib/python3/dist-packages/PyQt4/QtXml.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624794000
+/usr/lib/python3/dist-packages/PyQt4/QtScriptTools.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624794000
+/usr/lib/python3/dist-packages/PyQt4/QtDBus.cpython-34m-x86_64-linux-gnu.so = 1.135 1410624794000

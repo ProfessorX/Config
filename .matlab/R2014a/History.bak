@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<history>
+<session>
+<command time_stamp="1487e6b8df6">%-- 09/16/2014 04:24:11 PM --%</command>
+<command execution_time="7">cd</command>
+<command execution_time="16">pwd</command>
+</session>
+<session>
+<command time_stamp="1487e6c9df1">%-- 09/16/2014 04:25:21 PM --%</command>
+<command execution_time="358">logo</command>
+<command execution_time="7">disp('I love Masdar!')</command>
+</session>
+<session>
+<command time_stamp="1487e6e34e2">%-- 09/16/2014 04:27:05 PM --%</command>
+</session>
+<session>
+<command time_stamp="1487f0386da">%-- 09/16/2014 07:10:11 PM --%</command>
+</session>
+<session>
+<command time_stamp="1487f03db62">%-- 09/16/2014 07:10:32 PM --%</command>
+<command execution_time="315">logo</command>
+</session>
+</history>
